@@ -1,0 +1,39 @@
+<!-- EX1: Start JS Tutorial-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Ex1</title>
+</head>
+<body>
+    <h2>JavaScript Ex1: Start Tutorial</h2>
+    <!--Ex1.1: JavaScript control HTML Content-->
+    <p id="ex1-1">Ex1.1 Change HTML Content</p>
+    <button onclick='document.getElementById("ex1-1").
+    innerHTML = "Ex1.1 Hello JavaScript in HTML Content!"'>
+    click Me!</button>
+
+
+    <!-- Ex1.2: JavaScript control HTML Attribute Values-->
+    <p>Ex1.2 Change HTML Attribute Values.</p>
+    <button onclick='document.getElementById("myImage").
+    src="/ex1/open.JPG"'>Open</button>
+    <img id="myImage" src="/ex1/close.JPG" style="width:
+    100PX"/>
+    <button onclick='document.getElementById("myImage").src="/ex1/close.JPG"'
+    >Close</button>
+
+    <!--Ex1.3: JavaScript control Inline CSS Style-->
+    <p>Ex1.3 Change Inline CSS Style.</p>
+    <p id="ex1-3">Change Inline CSS Style.</p>
+    <button onclick="document.getElementById('ex1-3').style.fontSize='30px'">
+    Change Size</button>
+
+    <!-- EX1.4: Javascript control HTML Elements-->
+    <p>Ex1.4 Hide & Show HTML Elements</p>
+    <p id="ex1-4">Hide & Show HTML Elementss</p>
+    <button onclick="document.getElementById('ex1-4').style.display='none'">
+    Hide</button>
+    <button type="button" onclick="document.getElementById('ex1-4').style.display
+    ='block'">Show</button>
+</body>
+</html>
